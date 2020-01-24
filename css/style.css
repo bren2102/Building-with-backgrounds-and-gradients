@@ -1,0 +1,70 @@
+.background-header {
+    background-image: url(../resources/ibackground.jpg);
+    background-repeat: no-repeat;
+    width: 1245px;
+    height: 650px;
+    margin: 0 auto;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ul-nav-bar {
+    display: flex;
+    align-items: stretch;
+}
+
+.li-nav-bar {
+    display: inline;
+}
+
+.btn-nav-bar {
+    color: white;
+    background-color: #747474;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+}
+
+#icon-nav-bar {
+    display: block;
+    height: 40px;
+    background-color: #747474;
+    background-image: url('https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png');
+    background-position: 47% 4px;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+}
+
+#search-nav-bar {
+    width: 82px;
+    height: 30px;
+    border-radius: 5em;
+    padding-left: 8px;
+    background-image: url(../resources/search-icon.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: 80% 50%;
+}
+
+.text-header {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+/* End Header */
