@@ -1,3 +1,15 @@
+/* Star Header */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    background-color: #ececec;
+}
+
 .background-header {
     background-image: url(../resources/ibackground.jpg);
     background-repeat: no-repeat;
@@ -68,3 +80,21 @@ h3 {
 }
 
 /* End Header */
+
+/* Start Main */
+
+.img-container {
+    width: 1245px;
+    margin: 0 auto;
+    background-color: burlywood;
+    padding: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.main-img {
+    width: 311px;
+    padding: 0;
+}
+
+/* End Main */
