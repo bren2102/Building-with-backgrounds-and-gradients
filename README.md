@@ -8,7 +8,7 @@
     gradients
 
 ### Check it online!
-[Live preview](https://raw.githack.com/bren2102/Building-with-backgrounds-and-gradients/feature/index.html/)
+[Live preview](https://raw.githack.com/bren2102/Building-with-backgrounds-and-gradients/feature/index.html)
 
 ### Author:
 
