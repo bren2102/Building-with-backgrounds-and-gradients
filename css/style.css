@@ -21,15 +21,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .ul-nav-bar {
     display: flex;
     align-items: stretch;
+    padding: 0;
 }
 
 .li-nav-bar {
     display: inline;
+
 }
 
 .btn-nav-bar {
@@ -40,7 +43,17 @@ body {
     display: inline-block;
     width: 120px;
     height: 40px;
-    border: none;
+    border-right: #5e5e5e9d solid 0.5px;
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    cursor: pointer;
+}
+
+.btn-nav-bar:hover {
+    background-image: linear-gradient(to bottom,
+            #999999,
+            #3d3d3d);
 }
 
 #disable-btn:disabled {
@@ -48,16 +61,34 @@ body {
     border-bottom-right-radius: 0.5em;
 }
 
+#disable-btn:hover {
+    background-image: linear-gradient(to bottom,
+            #b8b8b8,
+            #5e5e5e);
+}
+
+#icon-nav-bar:hover {
+    background-image: linear-gradient(to bottom,
+            #999999,
+            #3d3d3d);
+}
+
 #icon-nav-bar {
     display: block;
     height: 40px;
-    background-image: url('https://archive.md/UW4oR/d800d4d3076695e798eda59b0a90e2d80a67ba02.png'),
-        linear-gradient(to bottom,
+    background-image: linear-gradient(to bottom,
             #b8b8b8,
             #5e5e5e);
-    background-position: 47% 4px;
+    background-position: 50% 5%;
+    background-size: 20%;
     border-top-left-radius: 0.5em;
     border-bottom-left-radius: 0.5em;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#apple-icon {
+    width: 20%;
 }
 
 #search-nav-bar {
@@ -69,9 +100,14 @@ body {
     background-repeat: no-repeat;
     background-size: 20%;
     background-position: 5% 50%;
-    background-color: seagreen;
+    background-color: rgba(240, 255, 255, 0);
+    color: white;
 }
 
+/*#search-nav-bar:hover {
+    width: 200px;
+}
+*/
 #input-search-nav-bar {
     background-image: linear-gradient(to bottom,
             #b8b8b8,
@@ -98,6 +134,18 @@ h2 {
 
 h3 {
     font-size: 1.4em;
+}
+
+.h3-text-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-icons {
+    font-size: 1.4em;
+    padding: 4px 0 0 6px;
 }
 
 /* End Header */
