@@ -143,6 +143,10 @@ h3 {
     justify-content: center;
 }
 
+h3:hover {
+    text-decoration: underline white 1px solid;
+}
+
 .material-icons {
     font-size: 1.4em;
     padding: 4px 0 0 6px;
