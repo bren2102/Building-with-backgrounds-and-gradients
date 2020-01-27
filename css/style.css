@@ -156,6 +156,10 @@ h3:hover {
 
 /* Start Main */
 
+main {
+    height: 170.883px;
+}
+
 .img-container {
     width: 1245px;
     margin: 0 auto;
